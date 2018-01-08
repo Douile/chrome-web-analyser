@@ -1,0 +1,8 @@
+{
+  "name": {
+    "message": "Web Analyst"
+  },
+  "desc": {
+    "message": "Store snapshots of webpages to detect when scripts are changed. Useful for detecting MITM attacks."
+  }
+}
