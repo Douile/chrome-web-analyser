@@ -10,7 +10,7 @@ function progress(no) {
       var options = {
         type: "progress",
         title: msg,
-        iconUrl: "icon.svg",
+        iconUrl: "icon128.png",
         message: ""
       };
       chrome.notifications.create("hash-progress",options);
@@ -22,7 +22,7 @@ function notify(text) {
     type: "basic",
     message: "",
     title: text,
-    iconUrl: "icon.svg",
+    iconUrl: "icon128.png",
     requireInteraction: false,
     isClickable: false
   }
